@@ -1,0 +1,211 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196F3; 
+    --main-color: #212121;
+    --paragraph-color: #757575;
+    --technical-color: #188CE8;
+    --white-color: #fff;
+    --backround-btn: #F5F4FA;
+    --section-background: #2F303A;
+    --letter-spacing: 0.03em;
+    --font-weight-variable: 700;
+    --font-size-predominate: 14px;
+    }
+
+/* СБРОС */
+.link { 
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}  
+.address { 
+    font-style: normal;
+} 
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+}
+Ul, li {
+    margin:0;
+    padding: 0;}
+img {
+    display: block;
+}
+
+/* end СБРОС */
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    font-weight: 400;
+}
+/* === header====*/
+.main-pages-link.link.current {
+    color: var(--accent-color);
+}
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: var(--font-weight-variable);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--letter-spacing);
+    color: var(--accent-color);
+}
+.change-first {
+    color: #000;
+}
+
+.main-pages-link {
+    font-weight: 500;
+    font-size: var(--font-size-predominate); 
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.main-pages-link:hover,
+.main-pages-link:focus {
+    color: var(--accent-color);
+}
+.phone:hover,
+.phone:focus {
+    color: var(--accent-color);
+}
+.phone {
+    font-weight: 500;
+    font-size: var(--font-size-predominate);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
+
+
+/* main html */
+.hero {
+    background-color: var(--section-background);
+}
+.headline {  
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.modal-btn {             
+    background-color: var(--accent-color);
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+} 
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--technical-color);
+}
+.text-btn {
+    font-weight: var(--font-weight-variable);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;  
+    height: 30px;
+    color: var(--white-color);
+}
+
+.title-description {    
+    font-weight: var(--font-weight-variable);
+    font-size: var(--font-size-predominate);
+    line-height: 1.14;
+    letter-spacing: var(--letter-spacing);    
+    text-transform: uppercase;  
+}
+
+.text-description {
+    font-size: var(--font-size-predominate);
+    line-height: 1.7;
+    letter-spacing: var(--letter-spacing);
+    color: var(--paragraph-color);
+}
+
+.work-make,
+.work-command {
+    font-weight: var(--font-weight-variable);
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: var(--letter-spacing);
+}
+
+.description-command .names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);   
+}
+
+.description-command .gig {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+    color: var(--paragraph-color);
+}
+/* prtfolio main*/
+.button-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: var(--letter-spacing);
+    background-color: var(--backround-btn);
+    cursor: pointer;
+}
+.button-list:hover,
+.button-list:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.subtitle {
+    font-weight:var(--font-weight-variable);    
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.projects-paragraph {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: var(--letter-spacing);
+    color: var(--paragraph-color);
+}
+/* prtfolio main end*/
+
+/* end main */
+
+
+/* ==========footer=========== */
+.footer{
+    background-color: var(--section-background);
+}
+.change-second {
+    color: var(--white-color);
+}
+
+.location-link,
+.phone-link {
+    font-size: var(--font-size-predominate);
+    line-height: 1.7;
+    letter-spacing: var(--letter-spacing);
+}
+.location-link   { 
+    color: var(--white-color);
+}
+
+.phone-link {
+    color: rgba(255, 255, 255, 0.6);
+} 
+/* ==========footer end=========== */
+
+
+
