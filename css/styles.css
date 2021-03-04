@@ -41,6 +41,44 @@ body {
     font-weight: 400;
 }
 /* === header====*/
+.our-header {
+    display: flex;
+    align-items: center; 
+}
+
+.navigation-for-pages>.logo{
+    margin-right: 93px;
+    margin-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.navigation-for-pages {
+    display: flex;    
+}
+
+.navigation-for-pages .list-pages + .list-pages{
+    margin-left: 50px;
+}
+
+.main-pages,
+.first-adress-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.first-adress-text {
+    margin-left: auto;
+}
+
+
+.main-pages {
+    display: flex;
+   
+}
+
+
+
 .main-pages-link.link.current {
     color: var(--accent-color);
 }
