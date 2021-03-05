@@ -44,8 +44,9 @@
        </section>
 
        <!---преимущества-->
-       <section>
-           <h2>преимущества</h2>
+       <section class="skills">
+         <div class="container">           
+           <h2 class="visually-hidden ">преимущества</h2>
            <ul class="description">
             <li class="list" >
               <h3 class="title-description">Внимание к деталям</h3>
@@ -64,46 +65,57 @@
                <p class="text-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
              </li>  
            </ul>
+          </div>
        </section>
        
        <!--основная напраленность-->
-       <section>
+       <section class="we-do">
+         <div class="container">
            <h2 class="work-make">Чем мы занимаемся</h2>
-           <ul>
-               <li class="list">
+           <ul class="images-of-work">
+               <li class="list works">
                    <img src="./images/main-work/1work-with-computer.jpg" alt="работа с компьютером" width="370" height="294">
                </li>
-               <li class="list">
+               <li class="list works">
                    <img src="./images/main-work/2work-with-mobile.jpg" alt="работа с разными гаджетами" width="370" height="294">
                </li>
-               <li class="list">
+               <li class="list works">
                    <img src="./images/main-work/3work-with-color.jpg" alt="работа с цветом" width="370" height="294">
                </li>
            </ul>
+          </div>
         </section>
            <!---наша команда-->
-       <section>
+       <section class="our-staff">
        <div class="container">
             <h2 class="work-command">Наша команда</h2>    
             <ul class="description-command">
-              <li class="list"><img src="./images/our-command/Igor-Demyanenko.jpg" alt="Игорь Демьяненко" height="270" width="260">
+              <li class="list list-command"><img src="./images/our-command/Igor-Demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                <div class="block-of-names">
                 <h3 class="names">Игорь Демьяненко</h3> 
                 <p class="gig">Product Designer</p> 
+              </div>
               </li>
-              <li class="list">
-                <img src="./images/our-command/Olha-Repina.jpg" alt="Ольга Репина" height="270" width="260">
+              <li class="list list-command">
+                <img src="./images/our-command/Olha-Repina.jpg" alt="Ольга Репина" width="270" height="260">
+                <div class="block-of-names">
                 <h3 class="names">Ольга Репина</h3> 
-                <p class="gig">Frontend Developer</p> 
+                <p class="gig">Frontend Developer</p>
+               </div>
               </li>
-              <li class="list">
-                <img src="./images/our-command/Nikolay-Tarasov.jpg" alt="Николай Тарасов" height="270" width="260">
+              <li class="list list-command">
+                <img src="./images/our-command/Nikolay-Tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                <div class="block-of-names">
                 <h3 class="names">Николай Тарасов</h3> 
                 <p class="gig">Marketing</p> 
+              </div>
               </li>
-              <li class="list">
-                <img src="./images/our-command/Michael-Ermakov.jpg" alt="Михаил Ермаков" height="270" width="260">
+              <li class="list list-command">
+                <img src="./images/our-command/Michael-Ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                <div class="block-of-names">
                 <h3 class="names">Михаил Ермаков</h3> 
                 <p class="gig">Ul Designer</p> 
+              </div>
               </li>
             </ul>
           </div>
@@ -111,7 +123,8 @@
     </main>
     <!--подвал-->
     <footer class="footer">
-     <a href="./index.html" lang="en" class="logo link">Web<span class="change-second">Studio</span></a>
+    <div class="container">
+     <a href="./index.html" lang="en" class="logo link web-footer">Web<span class="change-second">Studio</span></a>
       <!---адрес-->  
       <address class="address">
          <ul class="address-text">
@@ -127,7 +140,8 @@
             <a href="tel:+380991111111" class="phone-link link">+38 099 111 11 11</a>
           </li>
         </ul>   
-      </address>                
+      </address>  
+    </div>              
     </footer>    
 </body>
 </html>
