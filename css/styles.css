@@ -77,7 +77,7 @@ body {
 }
 
 .list-pages:not(:last-child),
-.phone {
+.for-contacts:not(:last-child) {
     margin-right: 50px;
 }
 .phone {
@@ -134,10 +134,6 @@ body {
     padding-bottom: 200px;
     padding-top: 200px; 
 }
-.hero > .container{
-    padding-left: auto;
-    padding-right: auto;
-}
 
 .headline {  
     font-family: var(--main-font);
@@ -152,6 +148,13 @@ body {
     margin-left: auto;
     margin-right: auto;    
 }
+
+.modal-btn,
+.button-list {
+    border-radius: 4px;
+}
+
+
 
 .modal-btn {  
     display: block;
@@ -191,7 +194,7 @@ body {
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
-  }
+}
 
 .skills .container {
     display: flex;
@@ -213,16 +216,17 @@ body {
     letter-spacing: var(--letter-spacing);    
     text-transform: uppercase;  
     margin-bottom: 10px;
-    margin-left: var(--margin-in-section);
-    margin-bottom: var(--margin-in-section);
 }
 .text-description {
     font-size: var(--font-size-predominate);
     line-height: 1.7;
     letter-spacing: var(--letter-spacing);
     color: var(--paragraph-color);
+}
+.block-description {
     margin-left: var(--margin-in-section);
     margin-bottom: var(--margin-in-section);
+    width:270;
 }
 /* end skills */
 
@@ -260,9 +264,11 @@ body {
     margin-bottom: calc(-1*var(--margin-in-section));
 }
 .description-command >.list-command {
-    flex-basis: calc(100/3 - 30px);
+    width: 270px;
     margin-left: var(--margin-in-section);
     margin-bottom: var(--margin-in-section);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px
 }
 
 .work-make,     
@@ -308,7 +314,7 @@ body {
      display: flex;
      align-items: center;
      flex-wrap: wrap;
-     padding-bottom: 50px;
+     margin-bottom: 50px;
      justify-content: center;   
 }
 .btn-of-filters>.list-filters {
@@ -345,7 +351,10 @@ body {
     margin-left: var(--margin-in-section);
     margin-top: var(--margin-in-section);
 }
-
+.projects > .projects-card{
+    min-width: 100%;
+    border: 1px solid #EEEEEE;
+}
 .subtitle {
     font-weight:var(--font-weight-variable);    
     font-size: 18px;
@@ -380,7 +389,7 @@ body {
 }
 .web-footer {
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .change-second {
     color: var(--white-color);
@@ -393,7 +402,9 @@ body {
     letter-spacing: var(--letter-spacing);
     display: block;
 } 
-
+.footer-contacts:not(:last-child) {
+    margin-bottom: 9px;
+}
 .location-link   { 
     color: var(--white-color);
 }
