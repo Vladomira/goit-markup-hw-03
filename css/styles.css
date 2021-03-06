@@ -206,7 +206,6 @@ body {
     margin-left: calc(-1*var(--margin-in-section));
     margin-top: calc(-1*var(--margin-in-section));
 }
-
 .title-description {    
     font-weight: var(--font-weight-variable);
     font-size: var(--font-size-predominate);
