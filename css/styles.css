@@ -53,6 +53,7 @@ body {
 .header {
     padding-top: 32px;
     padding-bottom: 32px;
+    border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -352,7 +353,7 @@ body {
     margin-top: var(--margin-in-section);
 }
 .projects > .projects-card{
-    min-width: 100%;
+    width: 370px;
     border: 1px solid #EEEEEE;
 }
 .subtitle {
