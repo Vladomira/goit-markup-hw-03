@@ -210,6 +210,11 @@ body {
     margin-left: calc(-1*var(--margin-in-section));
     margin-top: calc(-1*var(--margin-in-section));
 }
+.description .list.block-description {
+    margin-left: var(--margin-in-section);
+    margin-top: var(--margin-in-section);
+}
+
 .title-description {    
     font-weight: var(--font-weight-variable);
     font-size: var(--font-size-predominate);
@@ -224,11 +229,9 @@ body {
     letter-spacing: var(--letter-spacing);
     color: var(--paragraph-color);
 }
-.block-description {
-    margin-left: var(--margin-in-section);
-    margin-bottom: var(--margin-in-section);
-    width:270;
-}
+
+
+
 /* end skills */
 
 
